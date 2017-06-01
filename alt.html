@@ -29,10 +29,10 @@ body, html {
       <a href="#" class="w3-button w3-block w3-black">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#Elections" class="w3-button w3-block w3-black">Elections</a>
+      <a href="#About" class="w3-button w3-block w3-black">About</a>
     </div>
     <div class="w3-col s3">
-      <a href="#Twitter" class="w3-button w3-block w3-black">Twitter</a>
+      <a href="#Election" class="w3-button w3-block w3-black">Election</a>
     </div>
     <div class="w3-col s3">
       <a href="#Why" class="w3-button w3-block w3-black">Why?</a>
@@ -46,7 +46,7 @@ body, html {
     <span class="w3-tag">My Portfolio</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Maps</span>
+    <span class="w3-text-white" style="font-size:90px">Robs<br>Maps</span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
     <span class="w3-text-white">The Guide to the World</span>
@@ -57,44 +57,52 @@ body, html {
 <div class="w3-sand w3-grayscale w3-large">
 
 <!-- About Container -->
-<div class="w3-container" id="Elections">
+<div class="w3-container" id="About">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THIS WEBSITE</span></h5>
     <p>This is my website of stuff I've done in R</p>
     <p>It's a work in progress</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p><i>"everything is related to everything else, but near things are more related than distant things"</i></p>
-      <p>Waldo Tobler, 1970</p>
+      <p>Waldo Tobler, 1970 (below)</p>
     </div>
     <img src="Tobler_2007.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
   </div>
 </div>
 
 <!-- Menu Container -->
-<div class="w3-container" id="Twitter">
+<div class="w3-container" id="Election">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Elections</span></h5>
   
     <div class="w3-row w3-center w3-card-2 w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'EU_Ref');" id="myLink">
+        <div class="w3-col s6 tablink">EU Ref</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'GE_15');">
+        <div class="w3-col s6 tablink">GE 2015</div>
+          </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'GE_10');">
+        <div class="w3-col s6 tablink">GE 2010</div>
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
+    <div id="EU_Ref" class="w3-container menu w3-padding-48 w3-card-2">
       <h5>EU Referendum</h5>
       <p class="w3-text-grey">Map of The EU Referendum 2016</p><br>
     <iframe width="700" height="500" src="EU_Ref.html"></iframe><br/><br/>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
+    <div id="GE_15" class="w3-container menu w3-padding-48 w3-card-2">
       <h5>Coffee</h5>
       <p class="w3-text-grey">UK General Election 2015</p><br>
         <iframe width="700" height="500" src="Election_2015.html"></iframe>
+        
+     <div id="GE_10" class="w3-container menu w3-padding-48 w3-card-2">
+      <h5>Coffee</h5>
+      <p class="w3-text-grey">UK General Election 2010</p><br>
+        <iframe width="700" height="500" src="Election_2010.html"></iframe>
     
     </div>  
     <img src="Polling_Station.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
