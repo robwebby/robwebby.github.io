@@ -10,7 +10,7 @@ library(htmlwidgets)
 setwd(mydir)
 Constituencies <- readOGR("westminster_const.shp")
 Ref_Votes <- read.csv("Estimates_Leave_Vote.csv")
-GE_2015 <- read.csv("2015_GE_Results.csv")
+GE_2015 <- read.csv("GE2015_Results.csv")
 GE_2010 <- read.csv("GE2010_Results.csv")
 
 latlong = "+init=epsg:4326"
@@ -20,7 +20,7 @@ Constituencies_WGS <- spTransform(Constituencies,latlong)
 Constituencies_WGS <- ms_simplify(Constituencies_WGS,keep = 0.001,keep_shapes = TRUE)
 
 Referendum_WGS <- merge(Constituencies_WGS,Ref_Votes, by = "CODE")
-GE2015_WGS <- merge(Constituencies_WGS,GE_2015, by = "CODE")
+GE2015_WGS <- merge(Constituencies,GE_2015, by = "CODE")
 GE2010_WGS <- merge(Constituencies_WGS,GE_2010, by = "CODE")
 Combo_WGS <- merge(GE2015_WGS,Referendum_WGS, by = "CODE")
 Combo_WGS <- merge(Combo_WGS,GE_2010, by = "CODE")
@@ -29,7 +29,7 @@ altbin <- c(0,10,20,30,40,50,60,70,80,90,100)
 
 altpal <- colorBin(c('#08519c','#3182bd','#6baed6','#9ecae1','#c6dbef','#fdd0a2', '#fdae6b','#fd8d3c','#e6550d','#a63603'), domain = Combo_WGS$Estimated.Leave.vote, bins = altbin)
 
-Elec15pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), Combo_WGS$Winner.15)
+Elec15pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2015_WGS$Winner.15)
 
 Elec10pal <- colorFactor(palette =  c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold"), domain =  Combo_WGS$Winner.10)
 
@@ -38,14 +38,14 @@ labelleave <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 labelelec2015 <- sprintf(
-  "<strong>%s 2015 </strong><br/> Lab Vote Share <strong> %g </strong> <br /> Con Vote Share <strong> %g </strong> <br />Lib Dem Vote Share <strong> %g </strong> <br />UKIP Vote Share <strong> %g </strong> <br />SNP Vote Share <strong> %g </strong> <br />Green Vote Share <strong> %g </strong> <br />Other Vote Share <strong> %g </strong> <br />", Combo_WGS$NAME,Combo_WGS$Labour.Vote.Share.15,Combo_WGS$Conservative.Vote.Share.15,Combo_WGS$Lib.Dems.Vote.Share.15,Combo_WGS$UKIP.Vote.Share.15,Combo_WGS$SNP.Vote.Share.15,Combo_WGS$Green.Vote.Share.15,Combo_WGS$Other.Vote.Share.15
+  "<strong>%s 2015 </strong><br/> Lab Vote Share <strong> %g  (%g) </strong> <br /> Con Vote Share <strong> %g (%g) </strong> <br />Lib Dem Vote Share <strong> %g  (%g)</strong> <br />UKIP Vote Share <strong> %g (%g) </strong> <br />SNP Vote Share <strong> %g (%g) </strong> <br />Green Vote Share <strong> %g (%g) </strong> <br />Other Vote Share <strong> %g (%g) </strong> <br />", GE2015_WGS$NAME,GE2015_WGS$Labour.Vote.Share.15,GE2015_WGS$Labour.Vote.Share.Change.15,GE2015_WGS$Conservative.Vote.Share.15,GE2015_WGS$Conservative.Vote.Share.Change.15,GE2015_WGS$Lib.Dems.Vote.Share.15,GE2015_WGS$Lib.Dems.Vote.Share.Change.15,GE2015_WGS$UKIP.Vote.Share.15,GE2015_WGS$UKIP.Vote.Share.Change.15,GE2015_WGS$SNP.Vote.Share.15,GE2015_WGS$SNP.Vote.Share.Change.15,GE2015_WGS$Green.Vote.Share.15,GE2015_WGS$Green.Vote.Share.Change.15,GE2015_WGS$Other.Vote.Share.15,GE2015_WGS$Other.Vote.Share.Change.15
 ) %>% lapply(htmltools::HTML)
 
 labelelec2010 <- sprintf(
   "<strong>%s</strong><br/> Lab Vote Share <strong> %g </strong> <br /> Con Vote Share <strong> %g </strong> <br />Lib Dem Vote Share <strong> %g </strong> <br />UKIP Vote Share <strong> %g </strong> <br />SNP Vote Share <strong> %g </strong> <br />Green Vote Share <strong> %g </strong> <br />Other Vote Share <strong> %g </strong> <br />", Combo_WGS$NAME,Combo_WGS$Labour.Vote.Share.10,Combo_WGS$Conservative.Vote.Share.10,Combo_WGS$Lib.Dems.Vote.Share.10,Combo_WGS$UKIP.Vote.Share.10,Combo_WGS$SNP.Vote.Share.10,Combo_WGS$Green.Vote.Share.10,Combo_WGS$Other.Vote.Share.10
 ) %>% lapply(htmltools::HTML)
 
-GE2015_Leaflet <- leaflet(Combo_WGS) %>%
+GE2015_Leaflet <- leaflet(GE2015_WGS) %>%
   addTiles(group = "OSM (default)") %>%
   fitBounds(-14.02,49.67,2.09,61.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
