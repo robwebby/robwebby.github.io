@@ -2,11 +2,18 @@
 <html>
 <body>
 <h1>Hello and welcome to my mapping page using R</h1>
-<select class="my_select_box" data-placeholder="Select Your Options">
-    <option value="2015_VSC_Plots/Aberavon_2015.png" href="robwebby.github.io/2015_VSC_Plots/Aberavon_2015.png"> Aberavon_2015</option>
-    <option value="2015_VSC_Plots/Aberavon_2015.png" href="robwebby.github.io/2015_VSC_Plots/Aberavon_2015.png"> Aberavon_2015</option>
-    <option value="2015_VSC_Plots/Aberavon_2015.png" href="robwebby.github.io/2015_VSC_Plots/Aberavon_2015.png"> Aberavon_2015</option>
-  </select>
+
+<select id="my_selection">
+<option value="x" href="/2015_VSC_Plots/Aberavon_2015.png">value 1</option>
+<option value="y" href="/2015_VSC_Plots/Aberconwy_2015.png">value 2</option>
+</select>
+
+<script>
+document.getElementById('my_selection').onchange = function() {
+    window.location.href = this.children[this.selectedIndex].getAttribute('href');
+}
+</script>
+
 <p>Here are some of the things I'm working on at the moment.</p>
   <p>Check out these maps.</p><br/>
   <a href="EU_Ref.html">EU Referendum Estimates Map</a><br/>
