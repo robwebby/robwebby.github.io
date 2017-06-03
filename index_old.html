@@ -8,7 +8,7 @@
 <table>
 <tr>
 <td>
-<select name="imageSelector" id="imageSelector">
+<select name="imageSelector_VSC" id="imageSelector_VSC">
 <option value="/2015_VSC_Plots/Aberavon_VSC2015.png"> Aberavon
 <option value="/2015_VSC_Plots/Aberconwy_VSC2015.png">Aberconwy
 <option value="/2015_VSC_Plots/Aberdeen North_VSC2015.png">Aberdeen North
@@ -672,7 +672,7 @@
 <script>
 var img={
   imgEl:document.getElementById("canvas"),
-  sel:document.getElementById("imageSelector"),
+  sel:document.getElementById("imageSelector_VSC"),
   changeHandler:function(){
     img.imgEl.src=img.sel.options
       [img.sel.selectedIndex].value;
@@ -694,7 +694,7 @@ img.init();
 <table>
 <tr>
 <td>
-<select name="imageSelector" id="imageSelector">
+<select name="imageSelector_VS" id="imageSelector_VS">
 <option value="/2015_VSC_Plots/Aberavon_VS2015.png">Aberavon
 <option value="/2015_VSC_Plots/Aberconwy_VS2015.png">Aberconwy
 <option value="/2015_VSC_Plots/Aberdeen North_VS2015.png">Aberdeen North
@@ -1358,7 +1358,7 @@ img.init();
 <script>
 var img={
   imgEl:document.getElementById("canvas"),
-  sel:document.getElementById("imageSelector"),
+  sel:document.getElementById("imageSelector_VS"),
   changeHandler:function(){
     img.imgEl.src=img.sel.options
       [img.sel.selectedIndex].value;
@@ -1378,7 +1378,7 @@ img.init();
 <table>
 <tr>
 <td>
-<select name="imageSelector" id="imageSelector">
+<select name="imageSelector" id="imageSelector_pie">
 <option value="/2015_VSC_Plots/Aberavon_VS2015_pie.png">Aberavon
 <option value="/2015_VSC_Plots/Aberconwy_VS2015_pie.png">Aberconwy
 <option value="/2015_VSC_Plots/Aberdeen North_VS2015_pie.png">Aberdeen North
@@ -2042,7 +2042,7 @@ img.init();
 <script>
 var img={
   imgEl:document.getElementById("canvas"),
-  sel:document.getElementById("imageSelector"),
+  sel:document.getElementById("imageSelector_pie"),
   changeHandler:function(){
     img.imgEl.src=img.sel.options
       [img.sel.selectedIndex].value;
