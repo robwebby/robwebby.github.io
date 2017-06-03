@@ -24,7 +24,7 @@ for(i in 1:650){
     VSC_Plot <- barplot(IndCon_Data_VSC, main= Constituency,
                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VSC, cex.sub = 1, font.sub = 4
                       ,las=2)
-    dev.print(png, paste(Constituency,"_VSC2015.png", sep = ""), width = 448, height = 356) 
+    dev.print(png, paste(Constituency,"_VSC2015.png", sep = ""), width = 448, height = 356) }
     
     VS_Plot <- barplot(IndCon_Data_VS, main= Constituency,
                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VS, cex.sub = 1, font.sub = 4
