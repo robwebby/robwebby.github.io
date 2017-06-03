@@ -1,4 +1,4 @@
-<option value="/2015_VSC_Plots/Aberavon_2015.png"">Aberavon
+<option value="/2015_VSC_Plots/Aberavon_2015.png">Aberavon
 <option value="/2015_VSC_Plots/Aberconwy_2015.png">Aberconwy
 <option value="/2015_VSC_Plots/Aberdeen North_2015.png">Aberdeen North
 <option value="/2015_VSC_Plots/Aberdeen South_2015.png">Aberdeen South
@@ -20,7 +20,7 @@
 <option value="/2015_VSC_Plots/Ashford_2015.png">Ashford
 <option value="/2015_VSC_Plots/Ashton Under Lyne_2015.png">Ashton Under Lyne
 <option value="/2015_VSC_Plots/Aylesbury_2015.png">Aylesbury
-"<option value="/2015_VSC_Plots/Ayr, Carrick & Cumnock_2015.png">Ayr, Carrick & Cumnock"
+<option value="/2015_VSC_Plots/Ayr, Carrick & Cumnock_2015.png">Ayr, Carrick & Cumnock"
 <option value="/2015_VSC_Plots/Ayrshire Central_2015.png">Ayrshire Central
 <option value="/2015_VSC_Plots/Ayrshire North & Arran_2015.png">Ayrshire North & Arran
 <option value="/2015_VSC_Plots/Banbury_2015.png">Banbury
@@ -48,7 +48,7 @@
 <option value="/2015_VSC_Plots/Belfast West_2015.png">Belfast West
 <option value="/2015_VSC_Plots/Bermondsey & Old Southwark_2015.png">Bermondsey & Old Southwark
 <option value="/2015_VSC_Plots/Berwick-Upon-Tweed_2015.png">Berwick-Upon-Tweed
-"<option value="/2015_VSC_Plots/Berwickshire, Roxburgh & Selkirk_2015.png">Berwickshire, Roxburgh & Selkirk"
+<option value="/2015_VSC_Plots/Berwickshire, Roxburgh & Selkirk_2015.png">Berwickshire, Roxburgh & Selkirk"
 <option value="/2015_VSC_Plots/Bethnal Green & Bow_2015.png">Bethnal Green & Bow
 <option value="/2015_VSC_Plots/Beverley & Holderness_2015.png">Beverley & Holderness
 <option value="/2015_VSC_Plots/Bexhill & Battle_2015.png">Bexhill & Battle
@@ -112,7 +112,7 @@
 <option value="/2015_VSC_Plots/Bury South_2015.png">Bury South
 <option value="/2015_VSC_Plots/Bury St Edmunds_2015.png">Bury St Edmunds
 <option value="/2015_VSC_Plots/Caerphilly_2015.png">Caerphilly
-"<option value="/2015_VSC_Plots/Caithness, Sutherland & Easter Ross_2015.png">Caithness, Sutherland & Easter Ross"
+<option value="/2015_VSC_Plots/Caithness, Sutherland & Easter Ross_2015.png">Caithness, Sutherland & Easter Ross"
 <option value="/2015_VSC_Plots/Calder Valley_2015.png">Calder Valley
 <option value="/2015_VSC_Plots/Camberwell & Peckham_2015.png">Camberwell & Peckham
 <option value="/2015_VSC_Plots/Camborne & Redruth_2015.png">Camborne & Redruth
@@ -140,7 +140,7 @@
 <option value="/2015_VSC_Plots/Chelsea & Fulham_2015.png">Chelsea & Fulham
 <option value="/2015_VSC_Plots/Cheltenham_2015.png">Cheltenham
 <option value="/2015_VSC_Plots/Chesham & Amersham_2015.png">Chesham & Amersham
-"<option value="/2015_VSC_Plots/Chester, City Of_2015.png">Chester, City Of"
+<option value="/2015_VSC_Plots/Chester, City Of_2015.png">Chester, City Of"
 <option value="/2015_VSC_Plots/Chesterfield_2015.png">Chesterfield
 <option value="/2015_VSC_Plots/Chichester_2015.png">Chichester
 <option value="/2015_VSC_Plots/Chingford & Woodford Green_2015.png">Chingford & Woodford Green
@@ -153,7 +153,7 @@
 <option value="/2015_VSC_Plots/Cleethorpes_2015.png">Cleethorpes
 <option value="/2015_VSC_Plots/Clwyd South_2015.png">Clwyd South
 <option value="/2015_VSC_Plots/Clwyd West_2015.png">Clwyd West
-"<option value="/2015_VSC_Plots/Coatbridge, Chryston & Bellshill_2015.png">Coatbridge, Chryston & Bellshill"
+<option value="/2015_VSC_Plots/Coatbridge, Chryston & Bellshill_2015.png">Coatbridge, Chryston & Bellshill"
 <option value="/2015_VSC_Plots/Colchester_2015.png">Colchester
 <option value="/2015_VSC_Plots/Colne Valley_2015.png">Colne Valley
 <option value="/2015_VSC_Plots/Congleton_2015.png">Congleton
@@ -161,7 +161,7 @@
 <option value="/2015_VSC_Plots/Corby_2015.png">Corby
 <option value="/2015_VSC_Plots/Cornwall North_2015.png">Cornwall North
 <option value="/2015_VSC_Plots/Cornwall South East_2015.png">Cornwall South East
-"<option value="/2015_VSC_Plots/Cotswolds, The_2015.png">Cotswolds, The"
+<option value="/2015_VSC_Plots/Cotswolds, The_2015.png">Cotswolds, The"
 <option value="/2015_VSC_Plots/Coventry North East_2015.png">Coventry North East
 <option value="/2015_VSC_Plots/Coventry North West_2015.png">Coventry North West
 <option value="/2015_VSC_Plots/Coventry South_2015.png">Coventry South
@@ -170,7 +170,7 @@
 <option value="/2015_VSC_Plots/Croydon Central_2015.png">Croydon Central
 <option value="/2015_VSC_Plots/Croydon North_2015.png">Croydon North
 <option value="/2015_VSC_Plots/Croydon South_2015.png">Croydon South
-"<option value="/2015_VSC_Plots/Cumbernauld, Kilsyth & Kirkintilloch East_2015.png">Cumbernauld, Kilsyth & Kirkintilloch East"
+<option value="/2015_VSC_Plots/Cumbernauld, Kilsyth & Kirkintilloch East_2015.png">Cumbernauld, Kilsyth & Kirkintilloch East"
 <option value="/2015_VSC_Plots/Cynon Valley_2015.png">Cynon Valley
 <option value="/2015_VSC_Plots/Dagenham & Rainham_2015.png">Dagenham & Rainham
 <option value="/2015_VSC_Plots/Darlington_2015.png">Darlington
@@ -205,13 +205,13 @@
 <option value="/2015_VSC_Plots/Dudley South_2015.png">Dudley South
 <option value="/2015_VSC_Plots/Dulwich & West Norwood_2015.png">Dulwich & West Norwood
 <option value="/2015_VSC_Plots/Dumfries & Galloway_2015.png">Dumfries & Galloway
-"<option value="/2015_VSC_Plots/Dumfriesshire, Clydesdale & Tweeddale_2015.png">Dumfriesshire, Clydesdale & Tweeddale"
+<option value="/2015_VSC_Plots/Dumfriesshire, Clydesdale & Tweeddale_2015.png">Dumfriesshire, Clydesdale & Tweeddale"
 <option value="/2015_VSC_Plots/Dunbartonshire East_2015.png">Dunbartonshire East
 <option value="/2015_VSC_Plots/Dunbartonshire West_2015.png">Dunbartonshire West
 <option value="/2015_VSC_Plots/Dundee East_2015.png">Dundee East
 <option value="/2015_VSC_Plots/Dundee West_2015.png">Dundee West
 <option value="/2015_VSC_Plots/Dunfermline & Fife West_2015.png">Dunfermline & Fife West
-"<option value="/2015_VSC_Plots/Durham, City Of_2015.png">Durham, City Of"
+<option value="/2015_VSC_Plots/Durham, City Of_2015.png">Durham, City Of"
 <option value="/2015_VSC_Plots/Durham North_2015.png">Durham North
 <option value="/2015_VSC_Plots/Durham North West_2015.png">Durham North West
 <option value="/2015_VSC_Plots/Dwyfor Meirionnydd_2015.png">Dwyfor Meirionnydd
@@ -220,7 +220,7 @@
 <option value="/2015_VSC_Plots/Ealing Southall_2015.png">Ealing Southall
 <option value="/2015_VSC_Plots/Easington_2015.png">Easington
 <option value="/2015_VSC_Plots/East Ham_2015.png">East Ham
-"<option value="/2015_VSC_Plots/East Kilbride, Strathaven & Lesmahagow_2015.png">East Kilbride, Strathaven & Lesmahagow"
+<option value="/2015_VSC_Plots/East Kilbride, Strathaven & Lesmahagow_2015.png">East Kilbride, Strathaven & Lesmahagow"
 <option value="/2015_VSC_Plots/East Lothian_2015.png">East Lothian
 <option value="/2015_VSC_Plots/Eastbourne_2015.png">Eastbourne
 <option value="/2015_VSC_Plots/Eastleigh_2015.png">Eastleigh
@@ -328,7 +328,7 @@
 <option value="/2015_VSC_Plots/Ilford North_2015.png">Ilford North
 <option value="/2015_VSC_Plots/Ilford South_2015.png">Ilford South
 <option value="/2015_VSC_Plots/Inverclyde_2015.png">Inverclyde
-"<option value="/2015_VSC_Plots/Inverness, Nairn, Badenoch & Strathspey_2015.png">Inverness, Nairn, Badenoch & Strathspey"
+<option value="/2015_VSC_Plots/Inverness, Nairn, Badenoch & Strathspey_2015.png">Inverness, Nairn, Badenoch & Strathspey"
 <option value="/2015_VSC_Plots/Ipswich_2015.png">Ipswich
 <option value="/2015_VSC_Plots/Isle Of Wight_2015.png">Isle Of Wight
 <option value="/2015_VSC_Plots/Islington North_2015.png">Islington North
@@ -423,7 +423,7 @@
 <option value="/2015_VSC_Plots/Norfolk North West_2015.png">Norfolk North West
 <option value="/2015_VSC_Plots/Norfolk South_2015.png">Norfolk South
 <option value="/2015_VSC_Plots/Norfolk South West_2015.png">Norfolk South West
-"<option value="/2015_VSC_Plots/Normanton, Pontefract & Castleford_2015.png">Normanton, Pontefract & Castleford"
+<option value="/2015_VSC_Plots/Normanton, Pontefract & Castleford_2015.png">Normanton, Pontefract & Castleford"
 <option value="/2015_VSC_Plots/Northampton North_2015.png">Northampton North
 <option value="/2015_VSC_Plots/Northampton South_2015.png">Northampton South
 <option value="/2015_VSC_Plots/Northamptonshire South_2015.png">Northamptonshire South
@@ -476,12 +476,12 @@
 <option value="/2015_VSC_Plots/Rochford & Southend East_2015.png">Rochford & Southend East
 <option value="/2015_VSC_Plots/Romford_2015.png">Romford
 <option value="/2015_VSC_Plots/Romsey & Southampton North_2015.png">Romsey & Southampton North
-"<option value="/2015_VSC_Plots/Ross, Skye & Lochaber_2015.png">Ross, Skye & Lochaber"
+<option value="/2015_VSC_Plots/Ross, Skye & Lochaber_2015.png">Ross, Skye & Lochaber"
 <option value="/2015_VSC_Plots/Rossendale & Darwen_2015.png">Rossendale & Darwen
 <option value="/2015_VSC_Plots/Rother Valley_2015.png">Rother Valley
 <option value="/2015_VSC_Plots/Rotherham_2015.png">Rotherham
 <option value="/2015_VSC_Plots/Rugby_2015.png">Rugby
-"<option value="/2015_VSC_Plots/Ruislip, Northwood & Pinner_2015.png">Ruislip, Northwood & Pinner"
+<option value="/2015_VSC_Plots/Ruislip, Northwood & Pinner_2015.png">Ruislip, Northwood & Pinner"
 <option value="/2015_VSC_Plots/Runnymede & Weybridge_2015.png">Runnymede & Weybridge
 <option value="/2015_VSC_Plots/Rushcliffe_2015.png">Rushcliffe
 <option value="/2015_VSC_Plots/Rutherglen & Hamilton West_2015.png">Rutherglen & Hamilton West
@@ -637,7 +637,7 @@
 <option value="/2015_VSC_Plots/Worsley & Eccles South_2015.png">Worsley & Eccles South
 <option value="/2015_VSC_Plots/Worthing East & Shoreham_2015.png">Worthing East & Shoreham
 <option value="/2015_VSC_Plots/Worthing West_2015.png">Worthing West
-"<option value="/2015_VSC_Plots/Wrekin, The_2015.png">Wrekin, The"
+<option value="/2015_VSC_Plots/Wrekin, The_2015.png">Wrekin, The"
 <option value="/2015_VSC_Plots/Wrexham_2015.png">Wrexham
 <option value="/2015_VSC_Plots/Wycombe_2015.png">Wycombe
 <option value="/2015_VSC_Plots/Wyre & Preston North_2015.png">Wyre & Preston North
