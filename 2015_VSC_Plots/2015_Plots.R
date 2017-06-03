@@ -11,7 +11,7 @@ rownames(Con_Data_VSC) <- GE_2015_VSC[,1]
 
 setwd("~/Documents/GitHub/robwebby.github.io/2015_VSC_Plots")
 for(i in 1:650){
-  Constituencyinput <- 1
+  Constituencyinput <- i
   IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
   IndCon_Data_VSC <- as.matrix.data.frame(IndCon_Data_VSC)
   IndCon_Data_VS <- Con_Data_VS[Constituencyinput,]
@@ -29,12 +29,12 @@ for(i in 1:650){
     VS_Plot <- barplot(IndCon_Data_VS, main= Constituency,
                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VS, cex.sub = 1, font.sub = 4
                       ,las=2)
-    dev.print(png, paste(Constituency,"VS2015.png", sep = ""), width = 448, height = 356) 
+    dev.print(png, paste(Constituency,"_VS2015.png", sep = ""), width = 448, height = 356) 
     
     #pie
     par(srt=0) 
     VS_Plot_pie <- pie(IndCon_Data_VS, main= Constituency,labels = paste(Party_Names,IndCon_Data_VSC,"%",sep = " "),
                        col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"),cex = .5 )
-    dev.print(png, paste(Constituency,"VS2015_pie.png", sep = ""), width = 448, height = 356) 
+    dev.print(png, paste(Constituency,"_VS2015_pie.png", sep = ""), width = 448, height = 356) 
   }
 
