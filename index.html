@@ -36,7 +36,7 @@ body, html {
       <a href="#About" class="w3-button w3-block w3-black">About</a>
     </div>
     <div class="w3-col s3">
-      <a href="#Election" class="w3-button w3-block w3-black">Election</a>
+      <a href="#menu" class="w3-button w3-block w3-black">Election</a>
     </div>
     <div class="w3-col s3">
       <a href="#Twitter" class="w3-button w3-block w3-black">Twitter</a>
@@ -75,69 +75,66 @@ body, html {
 </div>
 
 <!-- Menu Container -->
-<div class="w3-container" id="Election">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Election Maps</span></h5>
-    <p>Here are a collection of WebMaps I have created using leaflet and R.</p>
-      <div class="w3-panel w3-leftbar w3-light-grey">
-      <p>Map of 2017 Election Results</p> <a href="Election_2017.html">Full Size</a><br/>
-
-    <iframe width="600" height="500" src="Election_2017.html"></iframe><br><br>
-            <p>This will be continously updated throughout the night as results come in.</p> 
-
-      </div>
-        <div class="w3-panel w3-leftbar w3-light-grey">
-        <p>Map of 2015 Election Results</p> <a href="Election_2015.html">Full Size</a><br/>
-     <iframe width="600" height="500" src="Election_2015.html"></iframe><br>
-     
-</div >
-</div>
-<iframe width="600" height="500" src="2015_VSC_Plots/GE_2015_VSC.html"></iframe><br>
-</div >
-
-      <div class="w3-panel w3-leftbar w3-light-grey">
-      <p>Map of 2010 Election Results</p> <a href="Election_2010.html">Full Size</a><br/>
-
-    <iframe width="400" height="400" src="Election_2010.html"></iframe><br><br>
-
-      </div>
-      
-<!--alternative  -->
-<!-- Menu Container -->
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
   
     <div class="w3-row w3-center w3-card-2 w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, '2017');" id="myLink">
-        <div class="w3-col s6 tablink">2017</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2017 Map');" id="myLink">
+        <div class="w3-col s6 tablink">2017 Map</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, '2015');">
-        <div class="w3-col s6 tablink">2015</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2017 Swing');">
+        <div class="w3-col s6 tablink">2017 Swing</div>
       </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, '2015 Map');">
+        <div class="w3-col s6 tablink">2015 Map</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2015 Swing');" id="myLink">
+        <div class="w3-col s6 tablink">2015 Swing</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2010 Map');">
+        <div class="w3-col s6 tablink">2010 Map</div>
+      </a>
+
     </div>
 
-    <div id="2017" class="w3-container menu w3-padding-48 w3-card-2">
+    <div id="2017 Map" class="w3-container menu w3-padding-48 w3-card-2">
+      <h1>2017 General Election Map</h1>
+      <a href="Election_2017.html">2017 General Election Results Map</a><br/>
+  <iframe width="700" height="500" src="Election_2017.html"></iframe><br/><br/>
+      
+    </div>
+    
+    <div id="2017 Swing" class="w3-container menu w3-padding-48 w3-card-2">
       <h5>Bread Basket</h5>
       <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-
+    
     </div>
 
-    <div id="2015" class="w3-container menu w3-padding-48 w3-card-2">
-      <h5>2015 General Election</h5>
-        <p>Map of 2015 Election Results</p> <a href="Election_2015.html">Full Size</a><br/>
-     <iframe width="600" height="500" src="Election_2015.html"></iframe><br>
-     <iframe width="600" height="500" src="2015_VSC_Plots/GE_2015_VSC.html"></iframe><br>
-     
-  
+    <div id="2015 Map" class="w3-container menu w3-padding-48 w3-card-2">
+      <h1>2015 General Election Map</h1>
+      <a href="Election_2015.html">2015 General Election Results Map</a><br/>
+  <iframe width="700" height="500" src="Election_2015.html"></iframe><br/><br/>
+   </div>  
+      
+      <div id="2015 Swing" class="w3-container menu w3-padding-48 w3-card-2">
+      <h1>2015 Vote Share Change</h1>      
+      <a href="/2015_VSC_Plots/GE_2015_VSC.html">2015 Swing</a><br/>
+      <iframe width="700" height="500" src="2015_VSC_Plots/GE_2015_VSC.html"></iframe><br/><br/>
     </div>  
-
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    
+    <div id="2010 Map" class="w3-container menu w3-padding-48 w3-card-2">
+      <h5>2010 General Election Map</h5>
+    <a href="Election_2010.html">2010 General Election Results Map</a><br/>
+    <iframe width="700" height="500" src="Election_2010.html"></iframe><br/><br/>
+    </div>    
+     
+    <img src="number_10.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
   </div>
 </div>
 
-    
+
     
 <!-- Contact/Area Container -->
     <div class="w3-container" id="Twitter" style="padding-bottom:32px;">
@@ -160,6 +157,23 @@ body, html {
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
+// Tabbed Menu
+<script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
 
 </body>
 </html>
