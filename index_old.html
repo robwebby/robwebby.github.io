@@ -14,6 +14,48 @@ document.getElementById('my_selection').onchange = function() {
 }
 </script>
 
+<form name="imageForm">
+<table>
+<tr>
+<td>
+<select name="imageSelector" id="imageSelector">
+    <option value="blank.jpg">Select an Animal
+    <option value="2015_VSC_Plots/Aberavon_2015.png">Aberavon
+    <option value="2015_VSC_Plots/Aberconwy_2015.png">Aberconwy
+    <option value="2015_VSC_Plots/Aberdeen North_2015.png">Aberdeen North
+    <option value="2015_VSC_Plots/Aberdeen South_2015.png">Aberdeen South
+    <option value="2015_VSC_Plots/Aberdeenshire West & Kincardine_2015.png">Aberdeenshire West & Kincardine
+    <option value="2015_VSC_Plots/Airdrie & Shotts_2015.png">Airdrie & Shotts
+    <option value="2015_VSC_Plots/Aldershot_2015">Aldershot_2015
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<img src="blank.jpg" id="canvas" alt="Showing the selected image">
+</td>
+</tr>
+</table>
+</form>
+<script>
+var img={
+  imgEl:document.getElementById("canvas"),
+  sel:document.getElementById("imageSelector"),
+  changeHandler:function(){
+    img.imgEl.src=img.sel.options
+      [img.sel.selectedIndex].value;
+    console.log(img.imgEl);
+  },
+  init:function(){
+    img.sel.onchange=img.changeHandler;
+  }
+};
+img.init();
+
+
+
+</script>
+
 <p>Here are some of the things I'm working on at the moment.</p>
   <p>Check out these maps.</p><br/>
   <a href="EU_Ref.html">EU Referendum Estimates Map</a><br/>
