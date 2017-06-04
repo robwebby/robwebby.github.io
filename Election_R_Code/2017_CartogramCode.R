@@ -1,3 +1,7 @@
+library(rgdal)
+library(leaflet)
+library(htmltools)
+library(htmlwidgets)
 setwd("/Users/robwebster/Documents/GitHub/robwebby.github.io")
 
 Constituencies <- readOGR("Cartogram_GE.shp")
@@ -20,7 +24,6 @@ GE2017_Leaflet <- leaflet(GE2017_WGS) %>%
               highlight = highlightOptions(
                 weight = 5,
                 color = "#666",
-                dashArray = "",
                 fillOpacity = 0.7,
                 bringToFront = TRUE),
               label = labelelec2017,

@@ -1,3 +1,8 @@
+library(rgdal)
+library(leaflet)
+library(htmltools)
+library(htmlwidgets)
+
 setwd("/Users/robwebster/Documents/GitHub/robwebby.github.io")
 
 Constituencies <- readOGR("Cartogram_GE.shp")
