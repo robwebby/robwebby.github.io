@@ -11,7 +11,7 @@ rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
 setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
 for(i in 1:650){
-  Constituencyinput <- 2
+  Constituencyinput <- i
   IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
   IndCon_Data_VSC <- as.matrix.data.frame(IndCon_Data_VSC)
   ylim_VSC <- c(min(t(IndCon_Data_VSC)),max(t(IndCon_Data_VSC)))
