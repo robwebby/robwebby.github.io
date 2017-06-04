@@ -1,9 +1,9 @@
 <h3>Select a constituency from dropdown list below.<h3/>
-<form name="imageForm">
+<form name="imageform_vs">
   <table>
   <tr>
   <td>
-  <select name="imageSelector_vs" id="imageSelector">
+  <select name="imageselector_vs" id="imageselector_vs">
     <option value="/2015_vs_Plots/Aberavon_vs2015.png"> Aberavon
     <option value="/2015_vs_Plots/Aberconwy_vs2015.png">Aberconwy
     <option value="/2015_vs_Plots/Aberdeen North_vs2015.png">Aberdeen North
@@ -643,7 +643,7 @@
     <option value="/2015_vs_Plots/Worsley & Eccles South_vs2015.png">Worsley & Eccles South
     <option value="/2015_vs_Plots/Worthing East & Shoreham_vs2015.png">Worthing East & Shoreham
     <option value="/2015_vs_Plots/Worthing West_vs2015.png">Worthing West
-    <option value="/2015_vs_Plots/Wrekin, The_vs2015.png">Wrekin, The"
+    <option value="/2015_vs_Plots/Wrekin, The_vs2015.png">The Wrekin
     <option value="/2015_vs_Plots/Wrexham_vs2015.png">Wrexham
     <option value="/2015_vs_Plots/Wycombe_vs2015.png">Wycombe
     <option value="/2015_vs_Plots/Wyre & Preston North_vs2015.png">Wyre & Preston North
@@ -659,15 +659,15 @@
     </tr>
     <tr>
     <td>
-    <img src="blank.jpg" id="canvas" alt="Showing the selected image">
+    <img src="blank.jpg" id="canvas_vs" alt="Showing the selected image">
     </td>
     </tr>
     </table>
     </form>
     <script>
     var img={
-    imgEl:document.getElementById("canvas"),
-    sel:document.getElementById("imageSelector"),
+    imgEl:document.getElementById("canvas_vs"),
+    sel:document.getElementById("imageselector_vs"),
     changeHandler:function(){
     img.imgEl.src=img.sel.options
     [img.sel.selectedIndex].value;
