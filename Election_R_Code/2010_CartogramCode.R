@@ -9,7 +9,7 @@ GE2010_WGS <- merge(Constituencies,GE_2010, by = "CODE")
 Elec10pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2015_WGS$Winner.15)
 
 labelelec2010 <- sprintf(
-  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g   </strong> <br /> Con Vote Share <strong> %g  </strong> <br />Lib Dem Vote Share <strong> %g  </strong> <br />UKIP Vote Share <strong> %g  </strong> <br />SNP Vote Share <strong> %g  </strong> <br />Green Vote Share <strong> %g  </strong> <br />Other Vote Share <strong> %g  </strong> <br />", GE2010_WGS$Constituency.Name,GE2010_WGS$Winner.10,GE2010_WGS$Labour.Vote.Share.10,GE2010_WGS$Conservative.Vote.Share.10,GE2010_WGS$Lib.Dems.Vote.Share.10,GE2010_WGS$UKIP.Vote.Share.10,GE2010_WGS$SNP.Vote.Share.10,GE2010_WGS$Green.Vote.Share.10,GE2010_WGS$Other.Vote.Share.10
+  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g<span>&#37;</span>   </strong> <br /> Con Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Lib Dem Vote Share <strong> %g<span>&#37;</span>  </strong> <br />UKIP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />SNP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Green Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Other Vote Share <strong> %g<span>&#37;</span>  </strong> <br />", GE2010_WGS$Constituency.Name,GE2010_WGS$Winner.10,GE2010_WGS$Labour.Vote.Share.10,GE2010_WGS$Conservative.Vote.Share.10,GE2010_WGS$Lib.Dems.Vote.Share.10,GE2010_WGS$UKIP.Vote.Share.10,GE2010_WGS$SNP.Vote.Share.10,GE2010_WGS$Green.Vote.Share.10,GE2010_WGS$Other.Vote.Share.10
 ) %>% lapply(htmltools::HTML)
 
 GE2010_Leaflet <- leaflet(GE2010_WGS) %>%
