@@ -33,7 +33,7 @@ labelleave <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 labelelec2015 <- sprintf(
-  "<strong>%s 2015 </strong><br/> Lab Vote Share <strong> %g  (%g) </strong> <br /> Con Vote Share <strong> %g (%g) </strong> <br />Lib Dem Vote Share <strong> %g  (%g)</strong> <br />UKIP Vote Share <strong> %g (%g) </strong> <br />SNP Vote Share <strong> %g (%g) </strong> <br />Green Vote Share <strong> %g (%g) </strong> <br />Other Vote Share <strong> %g (%g) </strong> <br />", GE2015_WGS$NAME,GE2015_WGS$Labour.Vote.Share.15,GE2015_WGS$Labour.Vote.Share.Change.15,GE2015_WGS$Conservative.Vote.Share.15,GE2015_WGS$Conservative.Vote.Share.Change.15,GE2015_WGS$Lib.Dems.Vote.Share.15,GE2015_WGS$Lib.Dems.Vote.Share.Change.15,GE2015_WGS$UKIP.Vote.Share.15,GE2015_WGS$UKIP.Vote.Share.Change.15,GE2015_WGS$SNP.Vote.Share.15,GE2015_WGS$SNP.Vote.Share.Change.15,GE2015_WGS$Green.Vote.Share.15,GE2015_WGS$Green.Vote.Share.Change.15,GE2015_WGS$Other.Vote.Share.15,GE2015_WGS$Other.Vote.Share.Change.15
+  "<strong>%s</strong><br/> Lab Vote Share <strong> %g  (%g) </strong> <br /> Con Vote Share <strong> %g (%g) </strong> <br />Lib Dem Vote Share <strong> %g  (%g)</strong> <br />UKIP Vote Share <strong> %g (%g) </strong> <br />SNP Vote Share <strong> %g (%g) </strong> <br />Green Vote Share <strong> %g (%g) </strong> <br />Other Vote Share <strong> %g (%g) </strong> <br />", GE2015_WGS$Constituency.Name,GE2015_WGS$Labour.Vote.Share.15,GE2015_WGS$Labour.Vote.Share.Change.15,GE2015_WGS$Conservative.Vote.Share.15,GE2015_WGS$Conservative.Vote.Share.Change.15,GE2015_WGS$Lib.Dems.Vote.Share.15,GE2015_WGS$Lib.Dems.Vote.Share.Change.15,GE2015_WGS$UKIP.Vote.Share.15,GE2015_WGS$UKIP.Vote.Share.Change.15,GE2015_WGS$SNP.Vote.Share.15,GE2015_WGS$SNP.Vote.Share.Change.15,GE2015_WGS$Green.Vote.Share.15,GE2015_WGS$Green.Vote.Share.Change.15,GE2015_WGS$Other.Vote.Share.15,GE2015_WGS$Other.Vote.Share.Change.15
 ) %>% lapply(htmltools::HTML)
 
 labelelec2010 <- sprintf(
@@ -41,7 +41,7 @@ labelelec2010 <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 GE2015_Leaflet <- leaflet(GE2015_WGS) %>%
-  fitBounds(-14.02,49.67,2.09,61.06) %>% 
+  fitBounds(-10.02,49.67,2.09,58.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
               color = ~Elec15pal(Winner.15), 
               highlight = highlightOptions(
