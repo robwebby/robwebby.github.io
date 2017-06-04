@@ -24,17 +24,19 @@ for(i in 1:650){
     VSC_Plot <- barplot(IndCon_Data_VSC, main= Constituency,
                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VSC, cex.sub = 1, font.sub = 4
                       ,las=2)
-    dev.print(png, paste(Constituency,"_VSC2015.png", sep = ""), width = 448, height = 356) }
+    setwd("~/Documents/GitHub/robwebby.github.io/2015_VSC_Plots")
+    dev.print(png, paste(Constituency,"_VSC2015.png", sep = ""), width = 448, height = 356) 
     
     VS_Plot <- barplot(IndCon_Data_VS, main= Constituency,
                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VS, cex.sub = 1, font.sub = 4
                       ,las=2)
+    setwd("~/Documents/GitHub/robwebby.github.io/2015_VS_Plots")
     dev.print(png, paste(Constituency,"_VS2015.png", sep = ""), width = 448, height = 356) 
     
     #pie
     par(srt=0) 
     VS_Plot_pie <- pie(IndCon_Data_VS, main= Constituency,labels = paste(Party_Names,IndCon_Data_VSC,"%",sep = " "),
                        col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"),cex = .5 )
+    setwd("~/Documents/GitHub/robwebby.github.io/2015_VSC_Plots_Pie")
     dev.print(png, paste(Constituency,"_VS2015_pie.png", sep = ""), width = 448, height = 356) 
   }
-
