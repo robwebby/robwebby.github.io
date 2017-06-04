@@ -8,22 +8,17 @@ library(rmapshaper)
 library(htmlwidgets)
 
 setwd(mydir)
-Constituencies <- readOGR("westminster_const.shp")
+Constituencies <- readOGR("Cartogram_GE.shp")
 Ref_Votes <- read.csv("Estimates_Leave_Vote.csv")
 GE_2015 <- read.csv("GE2015_Results.csv")
 GE_2010 <- read.csv("GE2010_Results.csv")
 
 latlong = "+init=epsg:4326"
 
-Constituencies_WGS <- spTransform(Constituencies,latlong)
-
-Constituencies_WGS <- ms_simplify(Constituencies_WGS,keep = 0.001,keep_shapes = TRUE)
-
-Referendum_WGS <- merge(Constituencies_WGS,Ref_Votes, by = "CODE")
+Referendum_WGS <- merge(Constituencies,Ref_Votes, by = "CODE")
 GE2015_WGS <- merge(Constituencies,GE_2015, by = "CODE")
-GE2010_WGS <- merge(Constituencies_WGS,GE_2010, by = "CODE")
-Combo_WGS <- merge(GE2015_WGS,Referendum_WGS, by = "CODE")
-Combo_WGS <- merge(Combo_WGS,GE_2010, by = "CODE")
+GE2010_WGS <- merge(Constituencies,GE_2010, by = "CODE")
+Combo_WGS <- merge(GE2015_WGS,GE2010_WGS, by = "CODE")
 
 altbin <- c(0,10,20,30,40,50,60,70,80,90,100)
 
@@ -46,7 +41,6 @@ labelelec2010 <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 GE2015_Leaflet <- leaflet(GE2015_WGS) %>%
-  addTiles(group = "OSM (default)") %>%
   fitBounds(-14.02,49.67,2.09,61.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
               color = ~Elec15pal(Winner.15), 
@@ -67,7 +61,6 @@ GE2015_Leaflet <- leaflet(GE2015_WGS) %>%
                   opacity = 1)
 
 GE2010_Leaflet <- leaflet(Combo_WGS) %>%
-  addTiles(group = "OSM (default)") %>%
   fitBounds(-14.02,49.67,2.09,61.06) %>% 
   addPolygons(fill = TRUE,
     stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,

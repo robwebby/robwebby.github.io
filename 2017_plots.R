@@ -1,6 +1,20 @@
+library(sp)
+library(rgdal)
+library(raster)
+library(plyr)
+library(rgeos)
+library(leaflet)
+library(rmapshaper)
+library(htmlwidgets)
+
 setwd("~/Documents/GitHub/robwebby.github.io")
 GE_2017 <- read.csv("GE2017_Results.csv")
-Party_Names <- c("Con","Green","Labour","Lib Dem","Other","Plaid","SNP","UKIP")
+Constituencies <- readOGR("Constituencies_Simp.shp")
+GE2017_WGS <- merge(Constituencies,GE_2017, by = "CODE")
+Party_Names <- c("Conservative","Green","Labour","Lib Dem","Other","Plaid","SNP","UKIP")
+Elec17pal <- colorFactor(c("white","darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","yellow","darkorchid1"), GE2017_WGS$Winner.17)
+
+
 GE_2017_VS <- GE_2017[,c(2,20:27)]
 Con_Names <- as.data.frame(GE_2017$Constituency.Name)
 Con_Data_VS <- GE_2017_VS[,-1]
@@ -50,3 +64,28 @@ for(i in 1:650){
     dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
     
     }}
+
+eleclabel <- sprintf(
+  "<strong>%s</strong><br/>
+  Labour %g% (%g)", 
+  GE2017_WGS$Constituency.Name,GE2017
+) %>% lapply(htmltools::HTML)
+
+Election <- leaflet(GE2017_WGS) %>%
+  addTiles(group = "OSM (default)") %>%
+  fitBounds(-14.02,49.67,2.09,61.06) %>% 
+  addPolygons(stroke = FALSE,color = ~elecpal1(Winner.17),
+              dashArray = "5,1", label = eleclabel,
+              group = "Winners",weight = 0.2
+              
+  ) %>% 
+  addPolygons(stroke = TRUE,color = ~elecpal1(Winner.17),
+              label = eleclabel,
+              group = "Winners"
+              
+  ) %>% 
+  
+  addLegend("bottomright", pal = Elec17pal, values = ~Winner.17,
+            title = "Winner GE 2017",
+            labFormat = labelFormat(prefix = ""),
+            opacity = 1)
