@@ -116,4 +116,3 @@ GE_2017[,14:34] <- NULL
 
 datatable(GE_2017, rownames = FALSE,filter = 'top', options = list(pageLength = 25,autoWidth = TRUE))
 
-?save_html

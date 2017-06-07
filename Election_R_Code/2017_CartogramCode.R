@@ -13,9 +13,9 @@ GE_2017$Winner.17 <- gsub('#N/A', 'No Result', GE_2017$Winner.17)
 GE2017_WGS <- merge(Constituencies,GE_2017, by = "CODE")
 GE2017_WGSAC <- merge(Constituencies_Ac,GE_2017, by = "CODE")
 
-Elec17pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2015_WGS$Winner.15)
+Elec17pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGS$Winner.15)
 
-Elec17palAC <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2015_WGS$Winner.15)
+Elec17palAC <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGSAC$Winner.15)
 
 labelelec2017 <- sprintf(
   "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g<span>&#37;</span>   </strong> <br /> Con Vote Share <strong> %g<span>&#37;</span>   </strong> <br />Lib Dem Vote Share <strong> %g<span>&#37;</span>  </strong> <br />UKIP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />SNP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Green Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Other Vote Share <strong> %g<span>&#37;</span>  </strong> <br />", GE2017_WGS$Constituency.Name,GE2017_WGS$Winner.17,GE2017_WGS$Labour.Vote.Share.17,GE2017_WGS$Conservative.Vote.Share.17,GE2017_WGS$Lib.Dems.Vote.Share.17,GE2017_WGS$UKIP.Vote.Share.17,GE2017_WGS$SNP.Vote.Share.17,GE2017_WGS$Green.Vote.Share.17,GE2017_WGS$Other.Vote.Share.17

@@ -33,20 +33,7 @@ for(i in 1:650){
   if (max(ylim_VSC)<=0) {
     
     print(paste(Constituency,"Not Called", sep = ""))
-    IndCon_Data_VSC[1,] <- c(0,0,0,0,0,0,0,0)
-    VSC_Plot <- barplot(IndCon_Data_VSC, main= paste(Constituency,"NOT CALLED",sep = " ") ,
-                        col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = c(-10,10), cex.sub = 1, font.sub = 4
-                        ,las=2)
-    setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
-    dev.print(png, paste(Constituency,"_VSC2017.png", sep = ""), width = 448, height = 356)
-    
-    VS_Plot <- barplot(IndCon_Data_VSC, main= paste(Constituency,"NOT CALLED",sep = " "),
-                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VS, cex.sub = 1, font.sub = 4
-                       ,las=2)
-    setwd("~/Documents/GitHub/robwebby.github.io/2017_VS_Plots")
-    dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
-    
-    
+  
   }
   else{
     
@@ -68,7 +55,7 @@ for(i in 1:650){
 eleclabel <- sprintf(
   "<strong>%s</strong><br/>
   Labour %g% (%g)", 
-  GE2017_WGS$Constituency.Name,GE2017
+  GE2017_WGS$Constituency.Name,GE2017_WGS
 ) %>% lapply(htmltools::HTML)
 
 Election <- leaflet(GE2017_WGS) %>%
