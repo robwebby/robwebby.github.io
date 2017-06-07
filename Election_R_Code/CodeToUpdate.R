@@ -112,5 +112,8 @@ saveWidget(GE2017_LeafletAC,file = "Election_2017.html")
 GE_2017[,19:35] <- gsub('#DIV/0!', 'Awaiting Results', GE_2017$Winner.17)
 rownames(GE_2017) <- GE_2017$Constituency.Name
 GE_2017$Press.Association.Reference <- NULL
-GE_2017$Constituency.Name <- NULL
-datatable(GE_2017, rownames = TRUE)
+GE_2017[,14:34] <- NULL
+
+datatable(GE_2017, rownames = FALSE,filter = 'top', options = list(pageLength = 25,autoWidth = TRUE))
+
+?save_html
