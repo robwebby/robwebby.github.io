@@ -12,7 +12,7 @@ setwd("~/Documents/GitHub/robwebby.github.io")
 GE_2017 <- read.csv("GE2017_Results.csv")
 GE_2017[,15:18] <- gsub('#N/A', 'No Result', GE_2017$Winner.17)
 
-Constituencies <- readOGR("Constituencies_Simp.shp")
+Constituencies <- readOGR("Cartogram_GE.shp")
 Constituencies_Ac <- readOGR("Constituencies_Simp.shp")
 GE2017_WGS <- merge(Constituencies,GE_2017, by = "CODE")
 GE2017_WGSAC <- merge(Constituencies_Ac,GE_2017, by = "CODE")
@@ -68,7 +68,7 @@ labelelec2017AC <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 GE2017_Leaflet <- leaflet(GE2017_WGS) %>%
-  fitBounds(-17.02,49.67,2.09,58.06) %>% 
+  fitBounds(-14.02,49.67,2.5,58.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
               color = ~Elec17pal(Winner.17), 
               highlight = highlightOptions(
@@ -88,7 +88,7 @@ GE2017_Leaflet <- leaflet(GE2017_WGS) %>%
 
 GE2017_LeafletAC <- leaflet(GE2017_WGSAC) %>%
   addTiles(group = "OSM (default)") %>%
-  fitBounds(-10.02,49.67,2.09,58.06) %>% 
+  fitBounds(-14.02,49.67,2.09,61.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
               color = ~Elec17palAC(Winner.17), 
               highlight = highlightOptions(
@@ -111,6 +111,7 @@ saveWidget(GE2017_LeafletAC,file = "Election_2017.html")
 
 GE_2017[,19:35] <- gsub('#DIV/0!', 'Awaiting Results', GE_2017$Winner.17)
 rownames(GE_2017) <- GE_2017$Constituency.Name
+colnames(GE_2017)[5] <- "Electorate"
 GE_2017$Press.Association.Reference <- NULL
 GE_2017[,14:34] <- NULL
 
