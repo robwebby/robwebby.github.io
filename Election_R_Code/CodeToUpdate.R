@@ -88,7 +88,7 @@ GE2017_Leaflet <- leaflet(GE2017_WGS) %>%
 
 GE2017_LeafletAC <- leaflet(GE2017_WGSAC) %>%
   addTiles(group = "OSM (default)") %>%
-  fitBounds(-14.02,49.67,2.09,61.06) %>% 
+  fitBounds(-10.02,49.67,2.09,58.06) %>% 
   addPolygons(stroke = FALSE, smoothFactor = 0.2, fillOpacity = 1,
               color = ~Elec17palAC(Winner.17), 
               highlight = highlightOptions(
