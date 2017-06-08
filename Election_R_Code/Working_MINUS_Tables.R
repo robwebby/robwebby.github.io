@@ -28,39 +28,6 @@ GE_2017_VSC <- GE_2017[,c(2,28:35)]
 Con_Data_VSC <- GE_2017_VSC[,-1]
 rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
-setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
-for(i in 1:650){
-  Constituencyinput <- 1
-  IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
-  IndCon_Data_VSC <- as.numeric(as.matrix.data.frame(IndCon_Data_VSC))
-  IndCon_Data_VS <- Con_Data_VS[Constituencyinput,]
-  IndCon_Data_VS <- as.numeric(as.matrix.data.frame(IndCon_Data_VS))
-  ylim_VSC <- c(min(t(IndCon_Data_VSC)),max(t(IndCon_Data_VSC)))
-  ylim_VS <- c(min(t(IndCon_Data_VS)),max(t(IndCon_Data_VS)))
-  Constituency <- as.character(Con_Names[Constituencyinput,])
-  if (ylim_VSC<==NA){
-    
-    print(paste(Constituency,"Not Called", sep = " "))
-    
-  }
-  else{
-    
-    # Render a barplot
-    VSC_Plot <- barplot(IndCon_Data_VSC, main= Constituency,
-                        col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VSC, cex.sub = 1, font.sub = 4
-                        ,las=2)
-    setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
-    dev.print(png, paste(Constituency,"_VSC2017.png", sep = ""), width = 448, height = 356) 
-    
-    VS_Plot <- barplot(IndCon_Data_VS, main= Constituency,
-                       col=c("darkblue","green","red","gold","grey","darkgreen","yellow","purple"), beside=TRUE, names.arg = Party_Names, ylim = ylim_VS, cex.sub = 1, font.sub = 4
-                       ,las=2)
-    setwd("~/Documents/GitHub/robwebby.github.io/2017_VS_Plots")
-    dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
-    
-    print(paste(Constituency,"Called",sep = " "))
-  }}
-
 Elec17pal <- colorFactor(c("grey","Blue","red"), GE2017_WGS$Winner.15)
 
 Elec17palAC <- Elec17pal
