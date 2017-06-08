@@ -56,7 +56,7 @@ for(i in 1:650){
     dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
     
   }}
-Elec17pal <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGS$Winner.15)
+Elec17pal <- colorFactor(c("firebrick2","darkblue","chartreuse","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGS$Winner.15)
 
 Elec17palAC <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGSAC$Winner.15)
 
