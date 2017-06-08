@@ -61,16 +61,16 @@ for(i in 1:650){
     print(paste(Constituency,"Called",sep = " "))
   }}
 
-Elec17pal <- colorFactor(c("grey","darkblue","chartreuse","goldenrod3","dimgrey","darkgreen","gold","red"), GE2017_WGS$Winner.15)
+Elec17pal <- colorFactor(c("grey","Blue","red"), GE2017_WGS$Winner.15)
 
 Elec17palAC <- Elec17pal
 
 labelelec2017 <- sprintf(
-  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g<span>&#37;</span>   </strong> <br /> Con Vote Share <strong> %g<span>&#37;</span>   </strong> <br />Lib Dem Vote Share <strong> %g<span>&#37;</span>  </strong> <br />UKIP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />SNP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Green Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Other Vote Share <strong> %g<span>&#37;</span>  </strong> <br />", GE2017_WGS$Constituency.Name,GE2017_WGS$Winner.17,GE2017_WGS$Labour.Vote.Share.17,GE2017_WGS$Conservative.Vote.Share.17,GE2017_WGS$Lib.Dems.Vote.Share.17,GE2017_WGS$UKIP.Vote.Share.17,GE2017_WGS$SNP.Vote.Share.17,GE2017_WGS$Green.Vote.Share.17,GE2017_WGS$Other.Vote.Share.17
+  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br />", GE2017_WGS$Constituency.Name,GE2017_WGS$Winner.17
 ) %>% lapply(htmltools::HTML)
 
 labelelec2017AC <- sprintf(
-  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g<span>&#37;</span>   </strong> <br /> Con Vote Share <strong> %g<span>&#37;</span>   </strong> <br />Lib Dem Vote Share <strong> %g<span>&#37;</span>  </strong> <br />UKIP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />SNP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Green Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Other Vote Share <strong> %g<span>&#37;</span>  </strong> <br />", GE2017_WGSAC$Constituency.Name,GE2017_WGSAC$Winner.17,GE2017_WGSAC$Labour.Vote.Share.17,GE2017_WGSAC$Conservative.Vote.Share.17,GE2017_WGSAC$Lib.Dems.Vote.Share.17,GE2017_WGSAC$UKIP.Vote.Share.17,GE2017_WGSAC$SNP.Vote.Share.17,GE2017_WGSAC$Green.Vote.Share.17,GE2017_WGSAC$Other.Vote.Share.17
+  "<strong>%s</strong><br/>Winner: <strong>%s</strong><br />", GE2017_WGSAC$Constituency.Name,GE2017_WGSAC$Winner.17
 ) %>% lapply(htmltools::HTML)
 
 GE2017_Leaflet <- leaflet(GE2017_WGS) %>%
@@ -111,7 +111,7 @@ GE2017_LeafletAC <- leaflet(GE2017_WGSAC) %>%
                   title = "Winner GE 2017",
                   labFormat = labelFormat(prefix = ""),
                   opacity = 1)
-
+setwd("~/Documents/GitHub/robwebby.github.io")
 saveWidget(GE2017_Leaflet,file = "Election_2017_Cartogram.html")
 saveWidget(GE2017_LeafletAC,file = "Election_2017.html")
 
@@ -133,3 +133,5 @@ setwd("~/Documents/GitHub/robwebby.github.io/National.Votes")
 write_tableHTML(tableHTML(National.VS), file = 'NationalVS_2017.html')
 
 datatable(GE_2017, rownames = FALSE,filter = 'top', options = list(pageLength = 25,autoWidth = TRUE))
+
+GE2017_Leaflet
