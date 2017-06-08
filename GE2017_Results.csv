@@ -174,7 +174,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 173,"Cumbernauld, Kilsyth & Kirkintilloch East",Scotland,S14000012,64037,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 174,Cynon Valley,Wales,W07000070,50650,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 175,Dagenham & Rainham,London,E14000657,69764,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-176,Darlington,North East,E14000658,68168,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+176,Darlington,North East,E14000658,68168,44817,19401,524,22681,1031,0,0,0,1180,Labour,Conservative,UKIP,Lib Dems,65.7,43.2893768,1.169199188,50.6080282,2.300466341,0,0,0,2.632929469,8.095774309,-2.340681466,7.738384784,-2.478221586,-0.542038356,0,0,-10.47321768
 177,Dartford,South East,E14000659,76271,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 178,Daventry,East Midlands,E14000660,71452,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 179,Delyn,Wales,W07000042,53470,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -520,7 +520,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 519,Somerton & Frome,South West,E14000932,81548,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 520,South Holland & The Deepings,East Midlands,E14000939,76243,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 521,South Ribble,North West,E14000943,75822,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-522,South Shields,North East,E14000944,64084,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+522,South Shields,North East,E14000944,64084,40772,10570,1437,25078,681,0,0,0,3006,Labour,Conservative,UKIP,Green,63.6,25.92465417,3.524477583,61.50789758,1.670263907,0,0,0,7.37270676,9.321869124,-0.926094594,10.24910811,-0.091765598,-3.93492348,0,0,-14.61819356
 523,Southampton Itchen,South East,E14000955,74532,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 524,Southampton Test,South East,E14000956,71931,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 525,Southend West,Eastern,E14000957,66918,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -649,3 +649,6 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 648,York Central,Yorkshire and the Humber,E14001061,76439,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 649,York Outer,Yorkshire and the Humber,E14001062,75939,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 650,Yorkshire East,Yorkshire and the Humber,E14000683,80105,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,
