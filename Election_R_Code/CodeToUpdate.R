@@ -10,10 +10,11 @@ library(DT)
 library(tableHTML)
 
 setwd("~/Documents/GitHub/robwebby.github.io")
-GE_2017 <- read.csv("GE2017_Results.csv")
+
 
 Constituencies <- readOGR("Cartogram_GE.shp")
 Constituencies_Ac <- readOGR("Constituencies_Simp.shp")
+GE_2017 <- read.csv("GE2017_Results.csv")
 GE2017_WGS <- merge(Constituencies,GE_2017, by = "CODE")
 GE2017_WGSAC <- merge(Constituencies_Ac,GE_2017, by = "CODE")
 Party_Names <- c("Conservative","Green","Labour","Lib Dem","Other","Plaid","SNP","UKIP")
@@ -29,11 +30,11 @@ rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
 setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
 for(i in 1:650){
-  Constituencyinput <- 320
+  Constituencyinput <- i
   IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
-  IndCon_Data_VSC <- as.matrix.data.frame(IndCon_Data_VSC)
+  IndCon_Data_VSC <- as.numeric(as.matrix.data.frame(IndCon_Data_VSC))
   IndCon_Data_VS <- Con_Data_VS[Constituencyinput,]
-  IndCon_Data_VS <- as.matrix.data.frame(IndCon_Data_VS)
+  IndCon_Data_VS <- as.numeric(as.matrix.data.frame(IndCon_Data_VS))
   ylim_VSC <- c(min(t(IndCon_Data_VSC)),max(t(IndCon_Data_VSC)))
   ylim_VS <- c(min(t(IndCon_Data_VS)),max(t(IndCon_Data_VS)))
   Constituency <- as.character(Con_Names[Constituencyinput,])
