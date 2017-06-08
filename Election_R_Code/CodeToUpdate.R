@@ -11,7 +11,6 @@ library(tableHTML)
 
 setwd("~/Documents/GitHub/robwebby.github.io")
 GE_2017 <- read.csv("GE2017_Results.csv")
-GE_2017[,15:18] <- gsub('#N/A', 'No Result', GE_2017$Winner.17)
 
 Constituencies <- readOGR("Cartogram_GE.shp")
 Constituencies_Ac <- readOGR("Constituencies_Simp.shp")
@@ -30,14 +29,17 @@ rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
 setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
 for(i in 1:650){
-  Constituencyinput <- i
+  Constituencyinput <- 320
   IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
   IndCon_Data_VSC <- as.matrix.data.frame(IndCon_Data_VSC)
+  IndCon_Data_VS <- Con_Data_VS[Constituencyinput,]
+  IndCon_Data_VS <- as.matrix.data.frame(IndCon_Data_VS)
   ylim_VSC <- c(min(t(IndCon_Data_VSC)),max(t(IndCon_Data_VSC)))
+  ylim_VS <- c(min(t(IndCon_Data_VS)),max(t(IndCon_Data_VS)))
   Constituency <- as.character(Con_Names[Constituencyinput,])
   if (max(ylim_VSC)<=0) {
     
-    print(paste(Constituency,"Not Called", sep = ""))
+    print(paste(Constituency,"Not Called", sep = " "))
     
   }
   else{
@@ -55,10 +57,12 @@ for(i in 1:650){
     setwd("~/Documents/GitHub/robwebby.github.io/2017_VS_Plots")
     dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
     
+    print(paste(Constituency,"Called",sep = " "))
   }}
-Elec17pal <- colorFactor(c("firebrick2","darkblue","chartreuse","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGS$Winner.15)
 
-Elec17palAC <- colorFactor(c("darkblue","chartreuse","firebrick2","goldenrod3","dimgrey","darkgreen","gold","darkorchid1"), GE2017_WGSAC$Winner.15)
+Elec17pal <- colorFactor(c("grey","darkblue","chartreuse","goldenrod3","dimgrey","darkgreen","gold","red"), GE2017_WGS$Winner.15)
+
+Elec17palAC <- Elec17pal
 
 labelelec2017 <- sprintf(
   "<strong>%s</strong><br/>Winner: <strong>%s</strong><br/> Lab Vote Share <strong> %g<span>&#37;</span>   </strong> <br /> Con Vote Share <strong> %g<span>&#37;</span>   </strong> <br />Lib Dem Vote Share <strong> %g<span>&#37;</span>  </strong> <br />UKIP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />SNP Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Green Vote Share <strong> %g<span>&#37;</span>  </strong> <br />Other Vote Share <strong> %g<span>&#37;</span>  </strong> <br />", GE2017_WGS$Constituency.Name,GE2017_WGS$Winner.17,GE2017_WGS$Labour.Vote.Share.17,GE2017_WGS$Conservative.Vote.Share.17,GE2017_WGS$Lib.Dems.Vote.Share.17,GE2017_WGS$UKIP.Vote.Share.17,GE2017_WGS$SNP.Vote.Share.17,GE2017_WGS$Green.Vote.Share.17,GE2017_WGS$Other.Vote.Share.17
