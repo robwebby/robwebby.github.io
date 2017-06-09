@@ -30,7 +30,7 @@ rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
 setwd("~/Documents/GitHub/robwebby.github.io/2017_VSC_Plots")
 for(i in 1:650){
-  Constituencyinput <- 1
+  Constituencyinput <- 
   IndCon_Data_VSC <- Con_Data_VSC[Constituencyinput,]
   IndCon_Data_VSC <- as.numeric(as.matrix.data.frame(IndCon_Data_VSC))
   IndCon_Data_VS <- Con_Data_VS[Constituencyinput,]
@@ -38,7 +38,7 @@ for(i in 1:650){
   ylim_VSC <- c(min(t(IndCon_Data_VSC)),max(t(IndCon_Data_VSC)))
   ylim_VS <- c(min(t(IndCon_Data_VS)),max(t(IndCon_Data_VS)))
   Constituency <- as.character(Con_Names[Constituencyinput,])
-  if (ylim_VSC<==NA){
+  if (ylim_VSC==NA){
     
     print(paste(Constituency,"Not Called", sep = " "))
     
@@ -59,7 +59,7 @@ for(i in 1:650){
     dev.print(png, paste(Constituency,"_VS2017.png", sep = ""), width = 448, height = 356) 
     
     print(paste(Constituency,"Called",sep = " "))
-  }}
+  }
 
 Elec17pal <- colorFactor(c("grey","Blue","red"), GE2017_WGS$Winner.15)
 
