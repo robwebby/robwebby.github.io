@@ -335,7 +335,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 334,Islington North,London,E14000763,68119,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 335,Islington South & Finsbury,London,E14000764,67650,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 336,Islwyn,Wales,W07000077,54866,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-337,Jarrow,North East,E14000765,64350,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+337,Jarrow,North East,E14000765,64350,32266,10757,745,28020,1163,0,0,0,2338,Green,SNP,Labour,Conservative,50.1,86.8406372,2.308932003,#REF!,7.24601748,0,0,0,#REF!,69.76771945,-1.088018521,#REF!,4.03576958,-0.998340421,0,0,#REF!
 338,Keighley,Yorkshire and the Humber,E14000766,65893,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 339,Kenilworth & Southam,West Midlands,E14000767,64362,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 340,Kensington,London,E14000768,65975,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -485,7 +485,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 484,"Ruislip, Northwood & Pinner",London,E14000906,70873,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 485,Runnymede & Weybridge,South East,E14000907,72566,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 486,Rushcliffe,East Midlands,E14000908,72955,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-487,Rutherglen & Hamilton West,Scotland,S14000056,76408,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+487,Rutherglen & Hamilton West,Scotland,S14000056,76408,67550,9941,0,19101,18836,371,0,18836,465,Labour,Lib Dems,Lib Dems,Conservative,88.4,14.71650629,0,28.27683198,27.88452998,0.549222798,0,27.88452998,0.688378979,7.166389135,0,-6.963990724,26.0707662,-0.033958665,0,-24.66949241,-1.569713532
 488,Rutland & Melton,East Midlands,E14000909,77185,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 489,Saffron Walden,Eastern,E14000910,76035,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 490,St Albans,Eastern,E14000960,70058,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -651,4 +651,4 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 650,Yorkshire East,Yorkshire and the Humber,E14000683,80105,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,
