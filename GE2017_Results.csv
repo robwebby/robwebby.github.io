@@ -373,7 +373,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 372,Liverpool Wavertree,North West,E14000795,62518,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 373,Liverpool West Derby,North West,E14000796,63082,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 374,Livingston,Scotland,S14000044,75924,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-375,Llanelli,Wales,W07000045,55637,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+375,Llanelli,Wales,W07000045,55637,40342,9544,0,21568,548,0,7351,0,1331,Labour,Conservative,Plaid,UKIP,72.5,23.65772644,0,53.46289227,1.358385801,0,18.22170443,0,3.299291061,9.311275459,-1.786177218,12.11898186,-0.588521442,-1.373982475,-4.728987753,0,-12.95258844
 376,Londonderry East,Northern Ireland,N06000006,63220,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 377,Loughborough,East Midlands,E14000797,77505,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 378,Louth & Horncastle,East Midlands,E14000798,77650,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -559,7 +559,7 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 558,Swansea East,Wales,W07000048,59823,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 559,Swansea West,Wales,W07000047,61334,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 560,Swindon North,South West,E14000851,78384,54911,29431,858,21096,1962,,,,1564,Conservative,Labour,Lib Dems,UKIP,70.1,53.59763982,1.562528455,38.41853181,3.573054579,0,0,0,2.848245342,3.264574467,-1.735584175,10.64585848,0.311311154,0,0,0,-12.48615993
-561,Swindon South,South West,E14000947,72619,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+561,Swindon South,South West,E14000947,72619,51271,24809,747,22345,2079,,,,1291,Conservative,Labour,Lib Dems,UKIP,70.6,48.38797761,1.456963976,43.58214195,4.054923836,0,0,0,2.517992627,2.152466169,-2.109607284,9.089723712,0.366557313,0,0,0,-9.499139903
 562,Tamworth,West Midlands,E14000986,71962,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 563,Tatton,North West,E14000987,66746,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 564,Taunton Deane,South West,E14000988,82507,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -637,9 +637,9 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 636,Workington,North West,E14001053,59607,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 637,Worsley & Eccles South,North West,E14001054,72473,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 638,Worthing East & Shoreham,South East,E14000682,74001,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-639,Worthing West,South East,E14001055,75945,41676,17392,,21317,1133,278,0,0,1556,Labour,Conservative,UKIP,Lib Dems,54.9,41.73145215,0,51.14934255,2.718591036,0.667050581,0,0,3.733563682,-9.731227355,-5.787680003,35.47847991,-6.10082468,0.667050581,0,0,-14.52579845
+639,Worthing West,South East,E14001055,75945,41676,17392,0,21317,1133,278,0,0,1556,Labour,Conservative,UKIP,Lib Dems,54.9,41.73145215,0,51.14934255,2.718591036,0.667050581,0,0,3.733563682,-9.731227355,-5.787680003,35.47847991,-6.10082468,0.667050581,0,0,-14.52579845
 640,"Wrekin, The",West Midlands,E14000992,65544,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-641,Wrexham,Wales,W07000044,50872,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
+641,Wrexham,Wales,W07000044,50872,35092,15321,,17153,865,,1753,0,,Labour,Conservative,Plaid,Lib Dems,69.0,43.65952354,0,48.88008663,2.464949276,0,4.995440556,0,0,12.02652742,-2.044683517,11.65095371,-2.837780025,-0.644885235,-2.648436091,0,-15.50169626
 642,Wycombe,South East,E14001056,74175,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 643,Wyre & Preston North,North West,E14001057,70201,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 644,Wyre Forest,West Midlands,E14001058,76713,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
@@ -651,4 +651,4 @@ Press Association Reference,Constituency Name,Region,CODE,Electorate 15,Votes 17
 650,Yorkshire East,Yorkshire and the Humber,E14000683,80105,0,,,,,,,,,#N/A,#NUM!,#NUM!,#NUM!,0.0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,
