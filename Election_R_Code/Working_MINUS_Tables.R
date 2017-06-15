@@ -28,7 +28,7 @@ GE_2017_VSC <- GE_2017[,c(2,28:35)]
 Con_Data_VSC <- GE_2017_VSC[,-1]
 rownames(Con_Data_VSC) <- GE_2017_VSC[,1]
 
-Elec17pal <- colorFactor(c("Orange","Grey","Blue","Red"), GE2017_WGS$Winner.15)
+Elec17pal <- colorFactor(c("Blue","Green","Red","Gold","Grey","Dark Green","Yellow"), GE2017_WGS$Winner.15)
 
 Elec17palAC <- Elec17pal
 
