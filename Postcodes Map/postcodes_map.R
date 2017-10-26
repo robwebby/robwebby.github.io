@@ -34,10 +34,10 @@ PC_Leaflet <- leaflet() %>% addTiles(group = "OSM (default)") %>%
               fillColor = "transparent",
               highlightOptions = highlightOptions(color = "blue", weight = 2,
                                                   bringToFront = TRUE), group = "Areas") %>%
-  addPolygons(data = Postcodes_Loc,stroke = TRUE,color = "red", weight = 1, smoothFactor = 0.5,
+  addPolygons(data = Postcodes_Loc,stroke = TRUE,color = "black", weight = 2, smoothFactor = 0.5,
               label = ~name,
               fillColor = "transparent",
-              highlightOptions = highlightOptions(color = "green", weight = 2,
+              highlightOptions = highlightOptions(color = "blue", weight = 3,
                                                   bringToFront = TRUE), group = "Districts") %>%
   
   addLayersControl(
