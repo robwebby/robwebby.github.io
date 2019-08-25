@@ -66,8 +66,8 @@ window.onload = function()
 
     FMEServer.init(
     {
-        server: "https://demos-safe-software.fmecloud.com", //Update to your FME Server hostname - on FME training machines this is http://fmetraining
-        token: "568c604bc1f235bbe137c514e7c61a8436043070" //Update to your fmetoken
+        server: "https://fmeserver-webstersnar.fmecloud.com", //Update to your FME Server hostname - on FME training machines this is http://fmetraining
+        token: "1e61f51c846713946d1950c6b30d78b1eb2b227e" //Update to your fmetoken
     });
 };
 
@@ -89,8 +89,8 @@ function showResults(json)
 
 function processClip()
 {
-    var repository = "RESTTraining";
-    var workspace = "webapp.bcroads.fmw";
+    var repository = "Samples";
+    var workspace = "austinDownload.fmw";
 
     // Process the clippingGeometry into a WKT Polygon string
     var geometry = "POLYGON((";
