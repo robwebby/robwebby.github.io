@@ -67,7 +67,7 @@ window.onload = function()
     FMEServer.init(
     {
         server: "https://fmeserver-webstersnar.fmecloud.com", //Update to your FME Server hostname - on FME training machines this is http://fmetraining
-        token: "1e61f51c846713946d1950c6b30d78b1eb2b227e" //Update to your fmetoken
+        token: "9d87f71dd782f4b934745ac16d05b1dff662e8d0" //Update to your fmetoken
     });
 };
 
@@ -90,7 +90,7 @@ function showResults(json)
 function processClip()
 {
     var repository = "Samples";
-    var workspace = "austinDownload.fmw";
+    var workspace = "webapp.bcroads.fmw";
 
     // Process the clippingGeometry into a WKT Polygon string
     var geometry = "POLYGON((";
